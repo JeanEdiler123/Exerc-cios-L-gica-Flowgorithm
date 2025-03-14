@@ -1,1 +1,3 @@
 # Aula Lógica
+Neste repositório, estão contidos exemplos de exercícios e programas que foram desenvolvidos para praticar lógica de programação utilizando a ferramenta Flowgorithm. Através de fluxogramas, os conceitos de variáveis, operações matemáticas e fluxo de controle foram abordados de forma prática e visual. Durante a aula, foram criados algoritmos simples, como cálculos de salário, velocidade média e ajustes em variáveis, além de trabalhar com entradas e saídas de dados. O objetivo é compreender como estruturar a lógica de resolução de problemas antes de implementá-los em uma linguagem de programação.
+👍😎
