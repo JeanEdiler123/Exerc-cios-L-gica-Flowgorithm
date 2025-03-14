@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 09:16:32 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjA5OjA5OjA5ICI7Mjg2OQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjA5OjE2OjMyICI7MTsyOTcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1, N2, N3, SOMA, MEDIA" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual foi sua primeira nota?&quot;" newline="True"/>
+            <input variable="N1"/>
+            <output expression="&quot;Qual foi sua segunda nota?&quot;" newline="True"/>
+            <input variable="N2"/>
+            <output expression="&quot;Qual foi sua terceira nota?&quot;" newline="True"/>
+            <input variable="N3"/>
+            <assign variable="SOMA" expression="N1+N2+N3"/>
+            <assign variable="MEDIA" expression="SOMA/3"/>
+            <output expression="&quot;A sua m&#233;dia foi de: &quot; &amp;MEDIA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

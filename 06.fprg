@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 10:00:02 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjA5OjU0OjA1ICI7Mjg2NQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjEwOjAwOjAyICI7MTsyOTUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1, DOB, MET" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe um numero qualquer&quot;" newline="True"/>
+            <input variable="N1"/>
+            <assign variable="DOB" expression="N1*2"/>
+            <assign variable="MET" expression="N1/2"/>
+            <output expression="&quot;O dobro do n&#250;mero informado &#233; &quot; &amp;DOB" newline="True"/>
+            <output expression="&quot;A metade do n&#250;mero informado &#233; &quot; &amp;MET" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

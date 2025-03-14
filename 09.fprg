@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 10:24:50 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjEwOjE0OjUwICI7Mjg1Mw=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjEwOjI0OjUwICI7MTsyOTYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SAL, AU, N1, N2, NSAL" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe seu sal&#225;rio atual&quot;" newline="True"/>
+            <input variable="SAL"/>
+            <output expression="&quot;Informe quanto % seu sal&#225;rio vai aumentar&quot;" newline="True"/>
+            <input variable="AU"/>
+            <assign variable="N1" expression="SAL/100"/>
+            <assign variable="N2" expression="N1*AU"/>
+            <assign variable="NSAL" expression="SAL+N2"/>
+            <output expression="&quot;Seu novo sal&#225;rio &#233; de: &quot;&amp;NSAL" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 10:10:50 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjEwOjAxOjA2ICI7Mjg1MA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjEwOjEwOjUwICI7MTsyOTU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="HO, VH, SAL, SALM" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe a quantidade de horas trabalhadas no dia&quot;" newline="True"/>
+            <input variable="HO"/>
+            <output expression="&quot;Informe o valor da hora&quot;" newline="True"/>
+            <input variable="VH"/>
+            <assign variable="SAL" expression="HO*VH"/>
+            <assign variable="SALM" expression="SAL*20"/>
+            <output expression="&quot;Seu sal&#225;rio total &#233; de R$:&quot; &amp;SAL" newline="True"/>
+            <output expression="&quot;Seu sal&#225;rio mensal &#233; de R$:&quot;&amp;SALM" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 09:45:34 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjA5OjE2OjQxICI7Mjg2Mw=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjA5OjQ1OjM0ICI7MTsyOTc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1, N2, N3, N4" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe quantos &#176;C est&#225; hoje&quot;" newline="True"/>
+            <input variable="N1"/>
+            <assign variable="N2" expression="N1*9"/>
+            <assign variable="N3" expression="N2/5"/>
+            <assign variable="N4" expression="N3+32"/>
+            <output expression="&quot;A temperatura em F &#233; igual a: &quot;&amp;N4" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

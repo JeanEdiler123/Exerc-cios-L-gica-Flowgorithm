@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-14 10:28:35 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjEwOjI0OjU0ICI7Mjg1OA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI5OzIwMjUtMDMtMTQ7IjEwOjI4OjM1ICI7MTsyOTY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="DIS, HS, VEL" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe a distancia percorrida em KM&quot;" newline="True"/>
+            <input variable="DIS"/>
+            <output expression="&quot;Informe em quantas horas voce completou o percurso&quot;" newline="True"/>
+            <input variable="HS"/>
+            <assign variable="VEL" expression="DIS/HS"/>
+            <output expression="&quot;A velocidade m&#233;dia em KM/h foi de: &quot;&amp;VEL" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
